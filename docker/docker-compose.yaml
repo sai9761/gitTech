@@ -1,0 +1,9 @@
+--- 
+services: 
+  db: 
+    image: mysql
+  redis: 
+    image: redis
+  server: 
+    image: tomcat
+version: '2'
